@@ -1,0 +1,15 @@
+{
+  "chats": [
+    {"code": "plan",  "name": "План",           "platform": "kimi",    "rules_tab": "rules/plan.md"},
+    {"code": "dev",   "name": "Разработка",     "platform": "kimi",    "rules_tab": "rules/dev.md"},
+    {"code": "sync",  "name": "Синхронизация",  "platform": "kimi",    "rules_tab": "rules/sync.md"},
+    {"code": "story", "name": "Сюжет",          "platform": "chatgpt", "rules_tab": "rules/story.md"},
+    {"code": "promo", "name": "Продвижение",    "platform": "chatgpt", "rules_tab": "rules/promo.md"},
+    {"code": "lore",  "name": "Лор",            "platform": "chatgpt", "rules_tab": "rules/lore.md"}
+  ],
+  "lab": {"name": "Лаборатория", "platform": "chatgpt", "rules_tab": "rules/lab.md", "on_bus": false},
+  "rules_rev": 15,
+  "stop": false,
+  "migrated_from": "claude-artifact bus 1f07bd55-2695-4e89-897f-6161a02bc3dc (frozen at M-0158, mat_counter 48)",
+  "migrated_at": "2026-11-23"
+}
